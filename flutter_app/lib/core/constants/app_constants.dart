@@ -2,7 +2,8 @@ class AppConstants {
   // ⚠️ IMPORTANT: Change this to your Django server URL when deploying
   // For local development (Android emulator): use 10.0.2.2 instead of localhost
   // For local development (physical device): use your PC's IP address e.g. http://192.168.1.100:8000
-  static const String baseUrl = 'http://127.0.0.1:8000';
+  //static const String baseUrl = 'http://127.0.0.1:8000';
+  static const String baseUrl = 'https://weather-friend.onrender.com';
 
   // API endpoints
   static const String locationSearchUrl = '$baseUrl/api/weather/location/search/';
